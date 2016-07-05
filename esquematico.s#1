@@ -857,8 +857,6 @@ LETTER landscape</description>
 <sheets>
 <sheet>
 <plain>
-<text x="241.3" y="7.62" size="1.778" layer="91">1</text>
-<text x="154.94" y="27.94" size="2.54" layer="91">ANALIZADOR DE TRANSDUCTORES ULTRASONICOS</text>
 </plain>
 <instances>
 <instance part="GENERATOR" gate="G$1" x="20.32" y="101.6"/>
