@@ -841,11 +841,11 @@ LETTER landscape</description>
 <parts>
 <part name="GENERATOR" library="SparkFun-Connectors" deviceset="BNC" device="PTH"/>
 <part name="COUNTER" library="SparkFun-Connectors" deviceset="BNC" device="PTH"/>
-<part name="U$3" library="SparkFun-Connectors" deviceset="BNC" device="PTH"/>
+<part name="BNC_TRANSDUCER" library="SparkFun-Connectors" deviceset="BNC" device="PTH"/>
 <part name="OUT_OSC" library="SparkFun-Connectors" deviceset="BNC" device="PTH"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="127"/>
 <part name="SELECTOR" library="con-wago-500" deviceset="W237-103" device=""/>
 <part name="PW_SW" library="con-wago-500" deviceset="W237-102" device=""/>
 <part name="VAR_RES" library="con-wago-500" deviceset="W237-102" device=""/>
@@ -863,7 +863,7 @@ LETTER landscape</description>
 <instances>
 <instance part="GENERATOR" gate="G$1" x="20.32" y="101.6"/>
 <instance part="COUNTER" gate="G$1" x="48.26" y="101.6" rot="MR0"/>
-<instance part="U$3" gate="G$1" x="88.9" y="101.6" rot="R270"/>
+<instance part="BNC_TRANSDUCER" gate="G$1" x="88.9" y="101.6" rot="R270"/>
 <instance part="OUT_OSC" gate="G$1" x="154.94" y="96.52" rot="MR0"/>
 <instance part="R1" gate="G$1" x="58.42" y="116.84"/>
 <instance part="R2" gate="G$1" x="68.58" y="91.44" rot="R270"/>
@@ -905,7 +905,7 @@ LETTER landscape</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="OUT"/>
+<pinref part="BNC_TRANSDUCER" gate="G$1" pin="OUT"/>
 <wire x1="88.9" y1="96.52" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="91.44" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
@@ -967,7 +967,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="TRANSDUCER" gate="-1" pin="KL"/>
 <wire x1="81.28" y1="88.9" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="BNC_TRANSDUCER" gate="G$1" pin="GND"/>
 <wire x1="83.82" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>

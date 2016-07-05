@@ -669,6 +669,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="J1" library="adafruit" deviceset="1X2" device="-3.5MM"/>
+<part name="J2" library="adafruit" deviceset="1X2" device="-3.5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -677,12 +678,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instances>
 <instance part="U$1" gate="G$1" x="-111.76" y="30.48"/>
 <instance part="U$2" gate="G$1" x="-71.12" y="30.48"/>
-<instance part="U$3" gate="G$1" x="30.48" y="22.86"/>
-<instance part="U$4" gate="G$1" x="30.48" y="-2.54"/>
+<instance part="U$3" gate="G$1" x="-15.24" y="30.48"/>
+<instance part="U$4" gate="G$1" x="45.72" y="25.4"/>
 <instance part="R1" gate="G$1" x="-48.26" y="45.72"/>
 <instance part="R2" gate="G$1" x="-30.48" y="25.4" rot="R270"/>
-<instance part="R3" gate="G$1" x="-17.78" y="22.86" rot="R90"/>
+<instance part="R3" gate="G$1" x="20.32" y="25.4" rot="R90"/>
 <instance part="J1" gate="G$1" x="-88.9" y="50.8" rot="R90"/>
+<instance part="J2" gate="G$1" x="-17.78" y="50.8" rot="R90"/>
 </instances>
 <busses>
 </busses>
